@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "6d594c94-16fa-11eb-b2a4-acde48001122",
-    "deck_config_uuid": "6d594faa-16fa-11eb-b2a4-acde48001122",
+    "crowdanki_uuid": "5dbc3a52-16fb-11eb-bd1c-acde48001122",
+    "deck_config_uuid": "5dbc3e4e-16fb-11eb-bd1c-acde48001122",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "6d594faa-16fa-11eb-b2a4-acde48001122",
+            "crowdanki_uuid": "5dbc3e4e-16fb-11eb-bd1c-acde48001122",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -47,7 +47,7 @@
             "timer": 0
         }
     ],
-    "desc": "",
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/789859128'>shared deck page</a> for more info.",
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
@@ -249,7 +249,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "[Proposition] : Les connecteurs [latex]$\\land$[/latex], [latex]$\\Rightarrow$[/latex] et [latex]$\\Leftrightarrow$[/latex] s'obtienne à partir de [latex]$\\neg$[/latex] et de [latex]$\\lor$[/latex]<div><br></div><div>Exemple : [latex]$\\neg$($\\neg$($\\varphi$ $\\land$ $\\psi$)) $\\equiv$ ? [/latex]</div>",
+                "[Proposition] : Les connectieurs [latex]$\\land$[/latex], [latex]$\\Rightarrow$[/latex] et [latex]$\\Leftrightarrow$[/latex] s'obtienne à partir de [latex]$\\neg$[/latex] et de [latex]$\\lor$[/latex]<div><br></div><div>Exemple : [latex]$\\neg$($\\neg$($\\varphi$ $\\land$ $\\psi$)) $\\equiv$ ? [/latex]</div>",
                 "[latex]$\\neg$($\\neg$($\\varphi$ $\\land$ $\\psi$)) $\\equiv$ $\\neg$($\\neg$($\\varphi$ $\\lor$ $\\psi$)[/latex]"
             ],
             "guid": "POX.?5(D>c",
@@ -313,7 +313,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "[Definition] : Qu'est-ce qu'une Forme Normale Conjonctive(FNC) ?",
+                "[Definition] : Qu'est-ce qu'une forme normale conjonctive(FNC) ?",
                 "Une FNC d'une proposition [latex]$\\varphi$[/latex] est une conjonction de clauses logiquement équivalente à [latex]$\\varphi$[/latex]"
             ],
             "guid": "gwg>?xp>)@",
