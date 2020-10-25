@@ -1,0 +1,392 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6d594c94-16fa-11eb-b2a4-acde48001122",
+    "deck_config_uuid": "6d594faa-16fa-11eb-b2a4-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "6d594faa-16fa-11eb-b2a4-acde48001122",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Par défaut",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "latex-1165e91155febc4bc88785c5504eb52efe4f8c51.png",
+        "latex-563a8268851ca0648ecf53c8051aeffed9764939.png",
+        "latex-56536eef630df5108ef4d60b81018d594b310026.png",
+        "latex-67304e1bc606fc75b4f068de49bd766847c15223.png",
+        "latex-827b532eab3dadfdd0fb2e846821a859c32af858.png",
+        "latex-83ba5840a13d23f735a251c07cf05ebb15795c33.png",
+        "latex-843622567e12d686e4e2f94ddfcb444e8ecde0d2.png",
+        "latex-8ada738001410f131563551fb68731e4f302048d.png",
+        "latex-921aade3100afbc11d0d13f71cdd7e68d83ad52e.png",
+        "latex-a3a70722f337e1529068359b303e4f0776ff68de.png",
+        "latex-a6ec0db174f3b705df19623976bf4b88ff502f3a.png",
+        "latex-b619e3a438f0411f66c60e5ed641b81cfb35cc4f.png",
+        "latex-bfa7e8c74bb709171ffdae20624e75193e9a0986.png",
+        "latex-c3e677fef92fd27f60f212cb1e0a6c0117f061b9.png",
+        "latex-ce27eeb61977760c9ea0f57ed5010053f9fd3f0a.png",
+        "latex-e7831509ab02752eafa3f1ef9b2851a6701fd125.png",
+        "latex-ec6266cd5dd412cf7fcb0a2339928f3746e2a66d.png",
+        "latex-f66d2ccbc0413f46bec3e195910d8f96a8c76738.png",
+        "latex-f712154dc4ecbd5cd0c720857899d33b67c69139.png",
+        "latex-f78aeb614d852d5966a72ba9f6b289135ac99868.png",
+        "latex-faa28ac8f434db6ebc006e6ad340faf49af38119.png",
+        "latex-fd378d00719d7ae3af3fea815d865736e69b5b3b.png"
+    ],
+    "name": "Math pour informatique",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Recto",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Verso",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basique",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "[Ensemble_et_relations]",
+                "Definition"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Verso}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Carte 1",
+                    "ord": 0,
+                    "qfmt": "{{Recto}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Définition] : assertion",
+                "On appelle assertion toute phrase d'un langage donné dont on peu déterminer sans ambiguïté sa vérité ou sa fausseté"
+            ],
+            "guid": "bh/DPB|LOB",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Définition] : Les 5 opérateurs logiques + leurs notations",
+                "[latex]<br>&nbsp; \\begin{itemize}<br>&nbsp;&nbsp;&nbsp; \\item[-] la négation (\"non\"), notée $\\neg$ ;<br>&nbsp;&nbsp;&nbsp; \\item[-] la conjonction (\"et\"), notée $\\land$ ;<br>&nbsp;&nbsp;&nbsp; \\item[-] la disjonction (\"ou\"), notée $\\lor$ ;<br>&nbsp;&nbsp;&nbsp; \\item[-] l'implication (\"implique\"), notée $\\Rightarrow$ ;<br>&nbsp;&nbsp;&nbsp; \\item[-] la bi-implication (\"Si et seulement si\"), notée $\\Leftrightarrow$.<br><div>&nbsp; \\end{itemize}</div><div>[/latex]</div>"
+            ],
+            "guid": "D_q~+mUx]8",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table de vérité de la négation",
+                "[latex]<div>\\begin{tabular}{c ||c}<br><br>&nbsp; $\\varphi$ &amp; $\\neg$$\\varphi$\\\\<br>&nbsp; \\hline<br>&nbsp; 0 &amp; 1\\\\<br>&nbsp; 1 &amp; 0 \\\\<br><br>\\end{tabular}[/latex]</div>"
+            ],
+            "guid": "h0ST64.y,4",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table de vérité de la conjonction",
+                "[latex]<div>\\begin{tabular}{cc ||c}<br><br>&nbsp; $\\varphi$ &amp; $\\psi$ &amp; $\\varphi$ $\\land$ $\\psi$\\\\<br>&nbsp; \\hline<br>&nbsp; 0 &amp; 0 &amp; 0 \\\\<br>&nbsp; 0 &amp; 1 &amp; 0 \\\\<br>&nbsp; 1 &amp; 0 &amp; 0 \\\\<br>&nbsp; 1 &amp; 1 &amp; 1 \\\\<br><br>\\end{tabular}</div><div>[/latex]</div><div><br></div><div>Propriété : La conjonction est <b><u>commutative</u></b></div>"
+            ],
+            "guid": "w:F`#mHbf5",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table de vérité de la disjonction (\"OU\" non exclusif)",
+                "[latex]\\begin{tabular}{cc ||c}<br><br>&nbsp; $\\varphi$ &amp; $\\psi$ &amp; $\\varphi$ $\\lor$ $\\psi$\\\\<br>&nbsp; \\hline<br>&nbsp; 0 &amp; 0 &amp; 0 \\\\<br>&nbsp; 0 &amp; 1 &amp; 1 \\\\<br>&nbsp; 1 &amp; 0 &amp; 1 \\\\<br>&nbsp; 1 &amp; 1 &amp; 1 \\\\<br><br>\\end{tabular}[/latex]<div>Propriété : La disjonction est <b><u>commutative</u></b></div>"
+            ],
+            "guid": "D3>F9;wBY}",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table de vérité de l'implication&nbsp;",
+                "[latex]<div>\\begin{tabular}{cc ||c}<br><br>&nbsp; $\\varphi$ &amp; $\\psi$ &amp; $\\varphi$ $\\Rightarrow$ $\\psi$\\\\<br>&nbsp; \\hline<br>&nbsp; 0 &amp; 0 &amp; 1 \\\\<br>&nbsp; 0 &amp; 1 &amp; 1 \\\\<br>&nbsp; 1 &amp; 0 &amp; 0 \\\\<br>&nbsp; 1 &amp; 1 &amp; 1 \\\\<br><br>\\end{tabular}<br></div><div>[/latex]</div><div><br></div><div>NOTE : L'implication<b> <u>n'est pas commutative</u></b></div>"
+            ],
+            "guid": "FB9>zBV*>n",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table de vérité de la bi-implication",
+                "[latex]<div>\\begin{tabular}{cc ||c}<br><br>&nbsp; $\\varphi$ &amp; $\\psi$ &amp; $\\varphi$ $\\Leftrightarrow$ $\\psi$\\\\<br>&nbsp; \\hline<br>&nbsp; 0 &amp; 0 &amp; 1 \\\\<br>&nbsp; 0 &amp; 1 &amp; 0 \\\\<br>&nbsp; 1 &amp; 0 &amp; 0 \\\\<br>&nbsp; 1 &amp; 1 &amp; 1 \\\\<br><br>\\end{tabular}<br></div><div>[/latex]</div>"
+            ],
+            "guid": "u>^/|5p=g|",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Supposons que [latex]$\\varphi$[/latex] et [latex]$\\psi$[/latex] des propositions.<div><br></div><div>Si l'implication [latex]$\\varphi$[/latex] [latex]$\\Rightarrow$[/latex] [latex]$\\psi$[/latex] est vraie, Quels sont les conditions nécessaires et suffisantes pour cette proposition ?</div>",
+                "Lorsque l'implication est vraie,<div><br></div><div>[latex]$\\varphi$[/latex] est une <u><font color=\"#ff001a\"><b>condition suffisante</b></font></u> pour [latex]$\\psi$[/latex]<br></div><div><br></div><div>Inversement, [latex]$\\psi$[/latex] est une <u><font color=\"#ff001a\"><b>condition nécessaire</b></font></u> pour [latex]$\\varphi$[/latex]</div>"
+            ],
+            "guid": "exJrsw`[ET",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Définition] : Propositions logiquement équivalentes (+ notation)",
+                "Deux propositions [latex]$\\varphi$[/latex] et [latex]$\\psi$[/latex] sont <b style=\"text-decoration-line: underline;\">logiquement équivalentes</b>&nbsp;lorsqu'elles ont les mêmes tables de vérité<div><br></div><div>Notation : [latex]$\\varphi$[/latex] [latex]$\\equiv$[/latex] [latex]$\\psi$[/latex]</div>"
+            ],
+            "guid": "eOE*w;_$Ms",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Proposition] : Les connecteurs [latex]$\\land$[/latex], [latex]$\\Rightarrow$[/latex] et [latex]$\\Leftrightarrow$[/latex] s'obtienne à partir de [latex]$\\neg$[/latex] et de [latex]$\\lor$[/latex]<div><br></div><div>Exemple : [latex]$\\neg$($\\neg$($\\varphi$ $\\land$ $\\psi$)) $\\equiv$ ? [/latex]</div>",
+                "[latex]$\\neg$($\\neg$($\\varphi$ $\\land$ $\\psi$)) $\\equiv$ $\\neg$($\\neg$($\\varphi$ $\\lor$ $\\psi$)[/latex]"
+            ],
+            "guid": "POX.?5(D>c",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Définition] : Qu'est-ce qu'une tautologie ?",
+                "Une tautologie est une proposition <u><b>toujours vraie</b></u>. La dernière colonne de la table de vérité d'une tautologie ne contient que la valeur 1."
+            ],
+            "guid": "w#g5mh&12U",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Définition] : Qu'est-ce qu'une contradiction/absurdité ?",
+                "C'est une proposition <u><b>toujours fausse</b></u>. La dernière colonne de la table de vérité d'une contradiction ne contient que la valeur 0."
+            ],
+            "guid": "e).1g.aeKS",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Qu'est-ce qu'une proposition satisfaisable ?",
+                "Une proposition est dite satisfaisable si dans la dernière colonne de sa table de vérité contient au moins un 1."
+            ],
+            "guid": "kyVG+M9^NL",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Qu'est-ce qu'une clause ?&nbsp;",
+                "Une clause est une disjonction de variables propositionnelles ou de négation de variable propositionelles."
+            ],
+            "guid": "fv1=Hj#TtF",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Qu'est-ce qu'une Forme Normale Conjonctive(FNC) ?",
+                "Une FNC d'une proposition [latex]$\\varphi$[/latex] est une conjonction de clauses logiquement équivalente à [latex]$\\varphi$[/latex]"
+            ],
+            "guid": "gwg>?xp>)@",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Qu'est-ce qu'une Forme normale disjonctive (FND) ?&nbsp;",
+                "Une FND d'une proposition [latex]$\\varphi$[/latex] est une disjonction de conjonctions de variables propositionnelles <b style=\"text-decoration-line: underline;\">OU</b>&nbsp;de négation de variables propositionnelles logiquement équivalentes à [latex]$\\varphi$[/latex]"
+            ],
+            "guid": "r$vtF`9V1E",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Logique_Propositionnelle]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Qu'est-ce qu'un ensemble bien défini ? (+ notation)",
+                "Un ensemble est bien défini s'il est donné par une collection d'élements qui satisfont une proproété caractéristiques explicite, c'est-à-dire commune à tous les élements de l'ensemble et à eux seuls.<div><br></div><div>Notation : Si une telle propriété est notée P, on notera l'ensemble correspondant par [latex]\\{ x: P(x)\\}[/latex], c'est-à-dire l'ensemble des x verifiant la propriété P</div>"
+            ],
+            "guid": "x#V,<fEV%3",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Soient A et B deux ensembles. Si x est un élement, comment signifier que x est (ou n'est pas) un élement de A ?",
+                "On écrit [latex]x $\\in$ A[/latex] pour signifier que x est un élement de A.<div><br></div><div>On note aussi [latex]x $\\notin$ A[/latex] pour signifier que x n'est pas un élement de A.</div>"
+            ],
+            "guid": "b_@7jKQLG+",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Soient A et B deux ensembles.<div>Comment noter l'inclusion de A dans B ?</div>",
+                "On note l'inclusion de A dans B par [latex]A $\\subseteq$ B[/latex].<div>Ceci signifie que tout éléments de A est aussi un élément de B.</div><div>On dit que A est un sous-ensemble/une partie de B.</div>"
+            ],
+            "guid": "Q*,OFK#r0o",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]",
+                "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Soient A et B deux ensembles.<div>Comment noter l'égalité de deux ensembles ?</div>",
+                "On écrit [latex]A = B[/latex] lorsque [latex]A $\\subseteq$ B[/latex] et [latex]B $\\subseteq$ A[/latex].<div><br></div><div><br></div><div>Autrement dit, A et B sont égaux lorsque tout éléments de A est aussi dans B et, inversement, tout élément de B appartient également à A.</div>"
+            ],
+            "guid": "A}0u;8,IOA",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]",
+                "Definition"
+            ]
+        }
+    ]
+}
