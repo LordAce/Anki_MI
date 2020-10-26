@@ -53,19 +53,27 @@
     "extendRev": 0,
     "media_files": [
         "latex-1165e91155febc4bc88785c5504eb52efe4f8c51.png",
+        "latex-26460f774b8e9676c30232e5f5c34ae8b3f9d405.png",
+        "latex-4b7f0856ebe4b2edc30a6b7d2238ef629c90a646.png",
+        "latex-4e7ab3068e9cd772f18e21e5ec4992715b667a7b.png",
+        "latex-554b41d37223cb4658d7b2f828b7bd0b40f5dc43.png",
         "latex-563a8268851ca0648ecf53c8051aeffed9764939.png",
         "latex-56536eef630df5108ef4d60b81018d594b310026.png",
         "latex-67304e1bc606fc75b4f068de49bd766847c15223.png",
+        "latex-6e03c8dfd07ce239a30a1435205401333cf85d18.png",
         "latex-827b532eab3dadfdd0fb2e846821a859c32af858.png",
         "latex-83ba5840a13d23f735a251c07cf05ebb15795c33.png",
         "latex-843622567e12d686e4e2f94ddfcb444e8ecde0d2.png",
         "latex-8ada738001410f131563551fb68731e4f302048d.png",
+        "latex-8d75313606ee81f16e1083998aaec35251e035e0.png",
+        "latex-8f31eb7f5993d75af712fb6fd7d26f55ac023018.png",
         "latex-921aade3100afbc11d0d13f71cdd7e68d83ad52e.png",
         "latex-a3a70722f337e1529068359b303e4f0776ff68de.png",
         "latex-a6ec0db174f3b705df19623976bf4b88ff502f3a.png",
         "latex-b619e3a438f0411f66c60e5ed641b81cfb35cc4f.png",
         "latex-bfa7e8c74bb709171ffdae20624e75193e9a0986.png",
         "latex-c3e677fef92fd27f60f212cb1e0a6c0117f061b9.png",
+        "latex-ce0428a07744ce781f9a99c1334e389d26b6871c.png",
         "latex-ce27eeb61977760c9ea0f57ed5010053f9fd3f0a.png",
         "latex-e7831509ab02752eafa3f1ef9b2851a6701fd125.png",
         "latex-ec6266cd5dd412cf7fcb0a2339928f3746e2a66d.png",
@@ -75,7 +83,7 @@
         "latex-faa28ac8f434db6ebc006e6ad340faf49af38119.png",
         "latex-fd378d00719d7ae3af3fea815d865736e69b5b3b.png"
     ],
-    "name": "Math pour informatique",
+    "name": "Math pour informatique_2",
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -114,8 +122,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "[Ensemble_et_relations]",
-                "Definition"
+                "[Ensemble_et_relations]"
             ],
             "tmpls": [
                 {
@@ -386,6 +393,54 @@
             "tags": [
                 "[Ensemble_et_relations]",
                 "Definition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] : Soient A et B deux ensembles.<div><br></div><div>Comment noter l'union de A et de B ?&nbsp;</div>",
+                "L'union de A et de B est notée [latex]A $\\cup$ B[/latex].<div><br></div><div>L'union de A et de B est l'ensemble qui contient à la fois les éléments de A et de B. On a donc [latex]A $\\cup$ B = \\{ x: x $\\in$ A ou x $\\in$ B \\}[/latex]</div>"
+            ],
+            "guid": "d?=1CjV{+(",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] Soient A et B deux ensembles.<div><br></div><div>Comment noter l'intersection de A et de B ?</div>",
+                "L'intersection de A et de B est notée : [latex]A $\\cap$ B[/latex].<div><br></div><div>L'intersection de A et de B est l'ensemble qui contient les éléments qui appartiennent à la fois à A et à B.&nbsp;</div><div><br></div><div>On a donc [latex]A $\\cap$ B = \\{ x: x $\\in$ A et x $\\in$ B\\}[/latex]</div>"
+            ],
+            "guid": "C8ya_fBY:!",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] Soient A et B deux ensembles.<div><br></div><div>Comment noter la différences de deux ensembles ?&nbsp;</div>",
+                "La différences de deux ensembles A et B est notée : [latex] A $\\setminus$ B[/latex]<div><br></div><div>La différences de deux ensembles A et B est l'ensemble qui contient les éléments de A n'appartenant pas à B.</div><div><br></div><div>On a donc [latex]A $\\setminus$ B = \\{ x: x $\\in$ A et x $\\notin$ B \\}[/latex]</div>"
+            ],
+            "guid": "r@SS?Nt.{N",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "[Definition] Soient A et B deux ensembles.<div><br></div><div>Comment noter l'ensembles des parties d'un ensemble ?</div>",
+                "L'ensembles des parties d'un ensembles A est notée : [latex]$\\mathcal{P}$(A)[/latex].<div><br></div><div>L'ensemble des parties d'un ensembles est l'ensemble de toutes les parties de A.&nbsp;</div><div><br></div><div>[latex]$\\mathcal{P}$(A) = \\{B: B $\\subseteq$ A \\}[/latex]</div>"
+            ],
+            "guid": "bWgNj])z-s",
+            "note_model_uuid": "a34eeca6-16f9-11eb-b2a4-acde48001122",
+            "tags": [
+                "[Ensemble_et_relations]"
             ]
         }
     ]
